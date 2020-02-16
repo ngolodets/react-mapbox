@@ -1,12 +1,11 @@
-import React, {useState, useEffect, useRef} from 'react';
-import mapboxgl from 'mapbox-gl';
-import 'mapbox-gl/dist/mapbox-gl.css';
+import React from 'react';
 import './App.css';
+import Layout from './Layout';
 
 function App() {
   return (
     <div className="App">
-      Hello
+      <Layout />
     </div>
   );
 }
